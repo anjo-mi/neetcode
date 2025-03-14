@@ -79,8 +79,12 @@ function isAnagram(s,t){
         a[el] = (a[el] || 0) + 1;
         return a;
     }, {});
+    console.log(sTot, tTot)
     for (let key in sTot){
         if (sTot[key] !== tTot[key]) return false;
     }
     return true;
 }
+
+
+console.log(isAnagram('racecar', 'carrace'))
