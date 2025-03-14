@@ -8,6 +8,6 @@ class Solution {
         return nonDupes.length !== nums.length
 
         // alt
-        // return new Set(nums).size === nums.length;
+        // return new Set(nums).size !== nums.length;
     }
 }
